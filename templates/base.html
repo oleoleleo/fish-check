@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Import materialize.css -->
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <!-- Import materialize.js -->
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="static/css/style.css">
+  <meta charset="utf-8">
+  <title>Fish Check | 釣れた魚は安全？</title>
+</head>
+
+<body>
+  <div class="row">
+    <!-- header -->
+    <header class="col s12 blue lighten-1">
+      <div class="col offset-s1">
+        <a href="/">
+          <img class="logo" src="./static/images/result/icon.png" alt="アイコン画像" style="margin-top: 40px; float: left; height: 52px; margin-right: 10px">
+          <img class="logo2" src="./static/images/result/logo.png" alt="ロゴ画像" style="height: 90px;">
+          <p class="white text" style="float: right; padding-right: 5px; padding-left: 5px; margin-top: 55px; ">釣れた魚は安全？　写真を撮って確かめよう。</p>
+        </a>
+      </div>
+    </header>
+
+    {% block body %}
+    {% endblock %}
+
+  </div>
+</body>
+
+</html>
